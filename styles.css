@@ -13,12 +13,12 @@ body{
     justify-content: center;
 }
 
-#modal-btn{
+#open-modal-btn{
     background-color: rgb(42, 131, 101);
     color: black;
 }
 
-#modal-overlay{
+.modal-overlay{
     display: grid;
     place-items: center;
     background-color: rgba(0, 0, 0, 0.712);
@@ -34,7 +34,7 @@ body{
     height: 30vh;
 }
 
-.close-modal{
+#close-modal-btn{
     background-color: rgb(42, 131, 101);
     color: black;
     position: absolute;
