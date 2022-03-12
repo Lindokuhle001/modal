@@ -44,3 +44,18 @@ body{
 .hide{
     display: none;
 }
+
+.theme{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 100;
+}
+
+.body-dark{
+    background-color: black;
+}
+
+.modal-dark{
+    background-color: gray;
+}
